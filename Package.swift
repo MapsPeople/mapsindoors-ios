@@ -15,7 +15,7 @@ let package = Package(
         .binaryTarget(
             name: "MapsIndoors",
             url: "https://github.com/MapsPeople/MapsIndoors-SDK-iOS/releases/download/\(mapsindoorsVersion)/MapsIndoors.xcframework.zip",
-            checksum: "2993fefbff6527e03431f89e71d1a2db8d8c7376551378e588f9d4b81af7c38b"
+            checksum: "76e2d88f577bd0ede9ef491f1af527374577db49dfdbc5a6d191e15dad0d1254"
         ),
     ]
 )
