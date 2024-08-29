@@ -3,7 +3,8 @@
 
 import PackageDescription
 
-let mapsindoorsVersion = Version("4.5.12")
+let mapsindoorsVersion = Version("4.6.0-beta.1")
+let checksum = "3517d117c34774ae347a8d59ce07accf89880b80538948d7065166d96dfe270b"
 
 let package = Package(
     name: "MapsIndoors",
@@ -15,7 +16,7 @@ let package = Package(
         .binaryTarget(
             name: "MapsIndoors",
             url: "https://github.com/MapsPeople/MapsIndoors-SDK-iOS/releases/download/\(mapsindoorsVersion)/MapsIndoors.xcframework.zip",
-            checksum: "76e2d88f577bd0ede9ef491f1af527374577db49dfdbc5a6d191e15dad0d1254"
+            checksum: checksum
         ),
     ]
 )
