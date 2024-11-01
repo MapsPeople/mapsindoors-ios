@@ -3,7 +3,7 @@
 
 import PackageDescription
 
-let mapsindoorsVersion = Version("4.6.3-beta.3")
+let mapsindoorsVersion = Version("4.6.3-beta.4")
 let checksum = "b65330944b131335a4f1983d1d86bef16d9aad60e97ff792876e43035c35849e"
 
 let package = Package(
@@ -12,7 +12,6 @@ let package = Package(
     products: [
         .library(
             name: "MapsIndoors",
-            type: .dynamic,
             targets: ["MapsIndoorsWrapper"]
         ),
     ],
