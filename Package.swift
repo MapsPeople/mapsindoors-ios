@@ -3,14 +3,14 @@
 
 import PackageDescription
 
-let mapsindoorsVersion = Version("4.6.3-beta.1")
+let mapsindoorsVersion = Version("4.6.3-beta.2")
 let checksum = "b65330944b131335a4f1983d1d86bef16d9aad60e97ff792876e43035c35849e"
 
 let package = Package(
     name: "MapsIndoors",
     platforms: [.iOS(.v14)],
     products: [
-        .library(name: "MapsIndoors", type: .dynamic, targets: ["MapsIndoorsWrapper"]),
+        .library(name: "MapsIndoors", targets: ["MapsIndoors"]),
     ],
     targets: [
         .binaryTarget(
@@ -18,12 +18,5 @@ let package = Package(
             url: "https://github.com/MapsPeople/MapsIndoors-SDK-iOS/releases/download/4.6.2/MapsIndoors.xcframework.zip",
             checksum: checksum
         ),
-        .target(
-            name: "MapsIndoorsWrapper",
-            dependencies: [
-                "MapsIndoors",
-            ]
-        ),
-
     ]
 )
