@@ -1,12 +1,11 @@
-[![Swift 5.9](https://img.shields.io/badge/Swift-5.9-red.svg?style=flat)](https://developer.apple.com/swift)
-[![Platforms](https://img.shields.io/badge/Platforms-iOS-blue.svg)]()
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2FMapsPeople%2Fmapsindoors-ios%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/MapsPeople/mapsindoors-ios)
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2FMapsPeople%2Fmapsindoors-ios%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/MapsPeople/mapsindoors-ios)
 
-
-# MapsIndoors Core SDK for iOS Swift Package
+# MapsIndoors SDK for iOS Swift Package
 
 ## Description
 
-This repository contains the Swift package for the MapsIndoors Core SDK for iOS. It is a dependency for both [MapsIndoors with Mapbox Maps](https://github.com/MapsPeople/mapsindoors-mapbox-ios) and [MapsIndoors with Google Maps](https://github.com/MapsPeople/mapsindoors-googlemaps-ios) SDKs for iOS and you should install either of those as described there.
+This repository contains the Swift package for the MapsIndoors SDK for iOS. It is a dependency for both [MapsIndoors with Mapbox Maps](https://github.com/MapsPeople/mapsindoors-mapbox-ios) and [MapsIndoors with Google Maps](https://github.com/MapsPeople/mapsindoors-googlemaps-ios) SDKs for iOS and you should install either of those as described there.
 
 
 ## Documentation
