@@ -1,10 +1,10 @@
-// swift-tools-version: 5.9
+// swift-tools-version: 5.10
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
 
-let mapsindoorsVersion = Version("4.14.0")
-let checksum = "d3d20386bc0bbd703c284317e347e618890142a696d0c77db612f047d298fe76"
+let mapsindoorsVersion = Version("4.15.1-rc.3")
+let checksum = "b3af089e8e5fe898b3f33954071820f6befb8c2e0f2a96fc7b9fd263940efd57"
 
 let package = Package(
     name: "MapsIndoors",
