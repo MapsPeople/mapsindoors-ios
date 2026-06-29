@@ -3,12 +3,12 @@
 
 import PackageDescription
 
-let mapsindoorsVersion = Version("4.17.3")
-let checksum = "21a30eb6a9b2f4cf9b85aa8b5378bd37f547f8e14e088c8f95c1b7e5d173b2fd"
+let mapsindoorsVersion = Version("4.18.0-rc.1")
+let checksum = "715b34b9147893ba3fd307872705a2e06fd51e9c001affe65cc4a33dedbdab81"
 
 let package = Package(
     name: "MapsIndoors",
-    platforms: [.iOS(.v15)],
+    platforms: [.iOS(.v16)],
     products: [
         .library(name: "MapsIndoors", targets: ["MapsIndoors"]),
     ],
